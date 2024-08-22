@@ -37,6 +37,11 @@ difference()
    
     translate([-500/2, -500/2, -100]) cube([500, 500, 100]);
 
+    translate([-W/2+10/2, 20+75-10/2, -gap1]) cylinder(r=8.3/2, h=1, $fn=100);
+    translate([ W/2-10/2, 20+75-10/2, -gap1]) cylinder(r=8.3/2, h=1, $fn=100);
+    translate([-W/2+10/2, -19.5, -gap1]) cylinder(r=8.3/2, h=1, $fn=100);
+    translate([ W/2-10/2, -19.5, -gap1]) cylinder(r=8.3/2, h=1, $fn=100);
+
    
 }
 
